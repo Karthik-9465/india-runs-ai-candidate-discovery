@@ -53,6 +53,9 @@ The **optional Streamlit Dashboard** (`app.py`) uses lightweight, industry-stand
 
 To execute the candidate discovery and ranking system and generate the validated `submission.csv` file, run the following command from the project root:
 
+**Note:** The full `candidates.json` dataset is not included in this repository because it exceeds GitHub's file size limit. During evaluation, place the official challenge dataset in the project root and execute:
+
+
 ```bash
 python rank.py --candidates ./candidates.json --out ./submission.csv
 ```

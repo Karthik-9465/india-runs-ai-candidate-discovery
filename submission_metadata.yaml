@@ -2,26 +2,32 @@
 # ============================================================================
 # Team identity
 # ============================================================================
-team_name: "Antigravity Founding ML Ranker"  # Used in leaderboard and announcements
+team_name: "ErrorBlockers"  # Used in leaderboard and announcements
 
 primary_contact:
-  name: "Antigravity AI Architect"
-  email: "antigravity@example.com"   # Used for all organizer communication
-  phone: "+91-9999999999"        # Used for top-50 / top-10 outreach
+  name: "Karthik Sonaveni"
+  email: "karthiksonaveni2@gmail.com"   # Used for all organizer communication
+  phone: "+91-6281383481"        # Used for top-50 / top-10 outreach
 
 team_members:
-  - name: "Antigravity AI"
-    email: "antigravity@example.com"
+  - name: " Karthik Sonaveni"
+    email: "karthiksonaveni2@gmail.com"
     role: "ML Architect"
+
+  - name: "Vaishnavi Neeli"
+    email: "neelivaishnavi57@gmail.com"
+    role: "Data Scientist"
+
+    
 
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "https://github.com/Karth/redrob-candidate-discovery"
+github_repo: "https://github.com/Karthik-9465/india-runs-ai-candidate-discovery"
 # Required. Must be reachable. Private repos OK if you can grant organizer
 # access at Stage 3.
 
-sandbox_link: "https://huggingface.co/spaces/Karth/redrob-ranker"
+sandbox_link: "https://india-runs-ai-candidate-discovery-9uzbkyaonnzspvhhuva5xw.streamlit.app/"
 # Required. A working hosted environment where the ranker can be run on a small
 # candidate sample.
 

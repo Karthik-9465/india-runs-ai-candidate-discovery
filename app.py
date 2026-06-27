@@ -92,6 +92,8 @@ def load_sample_data():
     return []
 
 sample_candidates = load_sample_data()
+st.write("Sample path:", Path(__file__).parent / "sample_candidates.json")
+st.write("Candidates in sample:", len(sample_candidates))
 
 # Tabs for JD and Candidates input
 tab_jd, tab_candidates = st.tabs(["📋 Job Description & Rules", "👥 Candidate Pool Ingestion"])

@@ -339,7 +339,7 @@ if "ranked_results" in st.session_state:
     df_display = pd.DataFrame(final_ranked_list).drop(columns=["raw_candidate"])
     
     st.subheader("🎯 Final Candidate Rankings (Top 100)")
-    st.dataframe(df_display, use_container_width=True, hide_index=True)
+    st.dataframe(df_display, width="stretch", hide_index=True)
     
     # Download button
     csv_data = df_display.rename(columns={

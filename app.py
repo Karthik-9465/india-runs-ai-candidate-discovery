@@ -92,15 +92,7 @@ def load_sample_data():
     return []
 
 sample_candidates = load_sample_data()
-sample_path = Path(__file__).parent / "sample_candidates.json"
 
-st.write("Path:", sample_path)
-st.write("Exists:", sample_path.exists())
-st.write("Size:", sample_path.stat().st_size)
-
-sample_candidates = load_sample_data()
-
-st.write("Count:", len(sample_candidates))
 
 # Tabs for JD and Candidates input
 tab_jd, tab_candidates = st.tabs(["📋 Job Description & Rules", "👥 Candidate Pool Ingestion"])

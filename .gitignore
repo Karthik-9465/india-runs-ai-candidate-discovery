@@ -1,0 +1,7 @@
+candidates.json
+submission.csv
+__pycache__/
+*.pyc
+venv/
+.venv/
+.streamlit/

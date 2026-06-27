@@ -285,9 +285,9 @@ with tab_candidates:
         # Rank
         ranked_results = ranker.rank_candidates(recall_pool)
         
-        # Explanations
+        # Explanations (only compile top 100 to align with submission requirements)
         final_ranked_list = []
-        for i, item in enumerate(ranked_results):
+        for i, item in enumerate(ranked_results[:100]):
             rank_val = i + 1
             reasoning = explainer.generate_reasoning(item, rank_val)
             final_ranked_list.append({

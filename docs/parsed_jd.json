@@ -1,0 +1,84 @@
+{
+  "role": "Founding Senior AI Engineer",
+  "seniority": "Senior",
+  "experience_range": {
+    "min": 5,
+    "max": 9
+  },
+  "mandatory_skills": [
+    "mrr",
+    "ab testing",
+    "map",
+    "ranking evaluation",
+    "python",
+    "sentence-transformers",
+    "qdrant",
+    "embeddings-based retrieval",
+    "pinecone",
+    "hybrid search",
+    "ndcg",
+    "faiss",
+    "vector databases",
+    "opensearch",
+    "weaviate",
+    "milvus"
+  ],
+  "preferred_skills": [
+    "lora",
+    "peft",
+    "recommendation systems",
+    "kubernetes",
+    "learning-to-rank",
+    "lightgbm",
+    "qlora",
+    "distributed systems",
+    "inference optimization",
+    "mlflow",
+    "xgboost",
+    "llm fine-tuning"
+  ],
+  "retrieval_requirements": {
+    "dense": "embeddings-based dense retrieval",
+    "sparse": "hybrid search / BM25"
+  },
+  "ranking_requirements": {
+    "model_types": [
+      "learning-to-rank",
+      "xgboost",
+      "lightgbm"
+    ],
+    "metrics": [
+      "ndcg",
+      "mrr",
+      "map"
+    ]
+  },
+  "llm_requirements": [
+    "fine-tuning",
+    "lora/qlora"
+  ],
+  "vector_db_requirements": [
+    "pinecone",
+    "weaviate",
+    "qdrant",
+    "milvus",
+    "opensearch",
+    "faiss"
+  ],
+  "notice_period_preference_days": 30,
+  "location_preferences": [
+    "Pune",
+    "Noida",
+    "Delhi NCR",
+    "Hyderabad",
+    "Mumbai"
+  ],
+  "disqualified_employers": [
+    "tcs",
+    "infosys",
+    "wipro",
+    "accenture",
+    "cognizant",
+    "capgemini"
+  ]
+}
